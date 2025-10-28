@@ -13,4 +13,12 @@ public class Solution2 {
        return profit;
     }
    
+
+
+    public static void main(String[] args) {
+        Solution2 sol = new Solution2();
+        int[] prices = {7,1,5,3,6,4};
+        int result = sol.maxProfit(prices);
+        System.out.println("Maximum Profit: " + result);
+    }
 }
